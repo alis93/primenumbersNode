@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A simple server that calculates the nearest prime number to the provided number",
   "main": "server.js",
+  { "engines" : { "node" : ">=8.0" } }
   "scripts": {
     "test": "jest --forceExit --coverage --verbose",
     "clean": "rm -r dist",
