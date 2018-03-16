@@ -10,6 +10,8 @@
 
 ## How to run/develop/test
 
+  NOTE: The server runs on port 3000 for both production and development mode
+
 * Download the project to your local computer.
 * Run `npm install`
 
@@ -30,6 +32,8 @@ In order to run this in development mode
 * Run `npm run development`
 
 This will run the development script, which watches the files for changes and restarts the server when they are detected.
+
+
 
 
 ### Test
