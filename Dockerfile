@@ -6,8 +6,12 @@ WORKDIR ./
 
 
 RUN npm install
+RUN npm run build
 
-CMD ["-url","http://google.com"]
+EXPOSE 8080
+
+CMD [ "npm", "start" ]
+
 
 
 
